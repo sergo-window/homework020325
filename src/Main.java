@@ -24,11 +24,11 @@ public class Main {
             System.out.println("Если скорость " + carSpeed + " км/ч, то можно ездить спокойно");
         }
 
-        int ageMan = 19;
-        if (ageMan > 2 && ageMan < 6) {
+        int ageMan = 18;
+        if (ageMan > 2 && ageMan <= 6) {
             System.out.println("Если возраст человека равен " + ageMan + ", то ему нужно ходить в детский сад");
         }
-        if (ageMan > 7 && ageMan < 17) {
+        if (ageMan > 6 && ageMan < 18) {
             System.out.println("Если возраст человека равен " + ageMan + ", то ему нужно ходить в школу");
         }
         if (ageMan >= 18 && ageMan <= 24) {
@@ -38,7 +38,7 @@ public class Main {
             System.out.println("Если возраст человека равен " + ageMan + ", то ему нужно пора ходить на работу");
         }
 
-        int ageChild = 7;
+        int ageChild = 6;
         if (ageChild < 5) {
             System.out.println("Если возраст ребёнка равен " + ageChild + ", то ему нельзя кататься на аттракционе");
         }
